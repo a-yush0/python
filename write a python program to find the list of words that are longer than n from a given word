@@ -1,0 +1,17 @@
+a=input("enter the input")
+a1=a.split()
+n=int(input("enter the value of n"))
+for i in a1:
+    if len(i) > n:
+        print(i)
+
+
+#second solution
+a = ["apple", "banana", "cherry", "date", "berry", "grape"]
+n = int(input("enter the value of n"))
+new_list = []
+
+for i in a:
+    if len(i) > n:
+        new_list.append(i)
+print(new_list)
