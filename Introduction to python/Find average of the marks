@@ -1,0 +1,6 @@
+M1 = int(input())
+M2 = int(input())
+M3 = int(input())
+
+Average = (M1+M2+M3)/3
+print(Average)
