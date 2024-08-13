@@ -1,0 +1,22 @@
+while True:
+    #a to take input for the operation
+    a=int(input())
+    if a>0 and a<6:
+        #b and c to take input for operation
+        b=int(input())
+        c=int(input())
+        if a==1:
+            print(b+c)
+        elif a==2:
+            print(b-c)
+        elif a==3:
+            print(b*c)
+        elif a==4:
+            print(b//c)
+        elif a==5:
+            print(b%c)
+    #to exit the calc
+    elif a==6:
+        exit()
+    else:
+        print("Invalid Operation")
