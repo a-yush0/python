@@ -1,0 +1,18 @@
+n = int(input()) 
+sum_even = 0
+sum_odd = 0
+
+# Iterate through the digits of 'n'
+while n > 0:
+    digit = n % 10  # Get the last digit of 'n'
+    
+    # Check if the digit is even or odd
+    if digit % 2 == 0:
+        sum_even += digit  # Add even digit to the sum_even
+    else:
+        sum_odd += digit  # Add odd digit to the sum_odd
+    
+    n = n // 10  # Remove the last digit from 'n'
+
+# Print the sum of even and odd digits separately
+print(sum_even," ",sum_odd)
